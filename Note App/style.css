@@ -1,0 +1,128 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+
+    background-color: #000;
+}
+
+
+.container{
+
+    max-width: 1024px;
+    margin: 30px auto;
+    background-color: #20262E;
+    padding: 20px 40px;
+
+}
+
+.container h1 {
+
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container .note-content{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container .note-content input{
+
+    height: 50px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 13px;
+    outline: none;
+}
+
+.container .note-content input:focus {
+
+    border-color: dodgerblue;
+}
+
+.container .note-content textarea {
+
+    height: 150px;
+    resize: none;
+    border-radius: 4px;
+    margin-bottom: 13px;
+    outline: none;
+    padding: 10px;
+}
+
+.container .note-content textarea:focus{
+
+    border-color: dodgerblue;
+}
+
+.container .note-content input[type="submit"]{
+
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.user-note-container{
+
+
+    width: 700px;
+    background-color: #20262E;
+    padding: 20px 16px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.user-note-container h2 {
+
+    color: white;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+ .notes  .user-note-content .note-counter{
+
+    color: white;
+    margin-bottom: 8px;
+}
+
+ .notes  .user-note-content .note-title{
+
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+ .notes  .user-note-content .note-details{
+
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+
+}
+ .notes  .user-note-content button{
+
+    padding: 10px 40px;
+    border: none;
+    background-color: dodgerblue;
+    border-radius: 2px;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
